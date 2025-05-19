@@ -2,19 +2,22 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Heat Alerts (Mid-Build)</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Heat Alerts</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
 </head>
-<body style="background:#121212; color:white; font-family:sans-serif;">
-    <h1>Heat Alerts: промежуточная версия</h1>
-    <ul>
-        <li>✅ График TradingView подключен</li>
-        <li>✅ Выбор торговых пар реализован</li>
-        <li>✅ Тёмная/светлая тема работает</li>
-        <li>✅ SHM индикатор отображается</li>
-        <li>🚧 Алерты и таймфреймы в разработке</li>
-        <li>🚧 Telegram-интеграция и личный кабинет запланированы</li>
-    </ul>
+<body class="dark">
+  <div id="app">
+    <header>
+      <h1>Heat Alerts</h1>
+      <button id="toggle-theme">Сменить тему</button>
+    </header>
+    <main>
+      <div id="chart-container">[график TradingView с SHM]</div>
+      <div id="alert-panel">[алерты появятся здесь]</div>
+      <div id="pricing">[уровни доступа]</div>
+    </main>
+  </div>
 </body>
 </html>
