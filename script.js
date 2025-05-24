@@ -1,0 +1,1 @@
+console.log('Heat Alerts frontend loaded');
